@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="src/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Portefolio</title>
+</head>
+<body>
+
+    <!-- La partie du header -->
+    
+    </div>
+    <header class="relative w-full flex flex-row content-center items-center shadow-md sm:justify-between p-5">
+        <div class="text-lg text-slate-700 font-bold cursor-pointer">Barry</div>
+        <nav class="w-full md:flex md:flex-row sm:justify-between">
+            <ul class="absolute sm:shadow-md rounded-lg sm:relative bg-slate-100 w-full ease-in-out md:left-96 sm:top-0 flex sm:right-0 flex-col items-center sm:bg-transparent left-0  p-4  top-20 sm:flex sm:flex-row gap-10 left duration-300" id="nav">
+                <li class="hover:bg-slate-100 p-4 hover:border-b-slate-700 hover:border-b-2 ease-in-out duration-700"><a href="#">Accueill</a></li>
+                <li class="hover:bg-slate-100 p-4 hover:border-b-slate-700 hover:border-b-2 ease-in-out duration-700"><a href="#apropos">Apropos</a></li>
+                <li class="hover:bg-slate-100 p-4 hover:border-b-slate-700 hover:border-b-2 ease-in-out duration-700"><a href="#parcour">Parcours</a></li>
+                <li class="hover:bg-slate-100 p-4 hover:border-b-slate-700 hover:border-b-2 ease-in-out duration-700"><a href="#connaissances">Connaissances</a></li>
+                <li class="hover:bg-slate-100 p-4 hover:border-b-slate-700 hover:border-b-2 ease-in-out duration-700"><a href="#services">Services</a></li>
+                <li class="hover:bg-slate-100 p-4 hover:border-b-slate-700 hover:border-b-2 ease-in-out duration-700"><a href="#realisation">Realisation</a></li>
+                <button class="border-slate-700 border-2 p-2  sm:flex text-center  w-32 rounded-3xl hover:bg-slate-700 hover:text-white ease-in-out delay-200"><a href="#contact">Contact</a></button>
+            </ul>
+        </nav>
+        <div class="flex sm:hidden flex-row items-center p-2">
+            <img src="images/menu.png" alt="" class="w-10 cursor-pointer" id="btn-open">
+
+            <span>Menu</span>
+        </div>
+    </header>
+
+    <!-- La partie principale du portfolio -->
+    <main>
+
+        <!-- Mise en place d'une banniére -->
+         <section class="flex flex-col sm:p-20 justify-center content-center items-center lg:flex-col mt-5">
+
+            <img src="images/moi.png" alt="" class="w-48 rounded-full border-sky-500 border-2 bg-slate-500">
+            <h2 class="p-5">Bonjour, je suis Alhassane Barry </h2>
+            <h1 class="text-4xl font-bold  text-center">Developpeur full-stack basé a Dakar</h1>
+
+            <p class="text-gray-500 w-full sm:w-120 text-center p-5">En tant que développeur full-stack basé à Dakar, je me spécialise dans la création de solutions web sur mesure, alliant technologies modernes et design intuitif pour offrir une expérience utilisateur optimale, tout en respectant vos délais et vos objectifs.</p>
+            <div class="flex flex-col sm:flex-row gap-5 p-5">
+                <button class="bg-slate-700 rounded-3xl w-48 p-2 text-white hover:bg-white hover:border-black hover:border-2 hover:text-black"><a href="#contact">Contact </a></button>
+                <a href="images/cv.pdf" download><button class="rounded-3xl border-2 border-black w-48  p-2 hover:bg-slate-700 hover:rounded-3xl  hover:text-white">Telecharger le cv</button></a>
+            </div>
+         </section>
+
+         <!-- Fin de la banniere -->
+
+        <section class="bg-gray-100 p-10" id="apropos">
+            <h2 class="text-center text-3xl p-5 ">Apropos de moi</h2>
+            <div class="sm:flex sm:flex-row gap-20 sm:justify-around h-full">
+                <img src="images/moi.png" alt="" class="w-96  object-cover bg-slate-500 rounded-lg h-full">
+                <div class="flex flex-col">
+                    <p>Je suis Alhassane Barry, étudiant en 2ᵉ année de Génie Informatique à l'Université Professionnelle de Dakar (Unipro). Passionné par les nouvelles technologies, je me spécialise dans le développement web et mobile, ainsi que dans la cybersécurité et l'intelligence artificielle.J'ai acquis des compétences en Java, Python, C, PHP, MySQL, ainsi qu'en développement frontend avec React.js et backend avec Django et NestJS. De plus, je maîtrise des outils comme WordPress, Docker, VMware Workstation Pro, ainsi que les systèmes Windows et Linux (Ubuntu).Actuellement, je travaille sur plusieurs projets, notamment :Une plateforme de freelance en Guinée (développement web et mobile).Une application de prise de rendez-vous médicaux avec React, TypeScript et NestJS.Je suis ouvert aux opportunités de collaboration et toujours en quête d'innovation pour relever de nouveaux défis technologiques.</p>
+                    <table class="mt-8">
+                        <tr>
+                            <td>Nom</td>
+                            <td class="font-bold text-slate-700 text-2xl">Barry</td>
+                        </tr>
+                        <tr>
+                            <td>Prenom</td>
+                            <td class="font-bold text-slate-700 text-2xl">Alhassane</td>
+                        </tr>
+                        <tr>
+                            <td>Date de naissance</td>
+                            <td class="font-bold text-slate-700 text-2xl">12/04/2004</td>
+                        </tr>
+                        <tr>
+                            <td>adresse</td>
+                            <td class="font-bold text-slate-700 text-2xl">Guédiawaye,Dakar,Sénégale</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                adresse mail
+                            </td>
+                            <td class="font-bold text-slate-700 text-2xl">
+                                barryAlhassane476@gmail.com
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Nationnalité</td>
+                            <td class="font-bold text-slate-700 text-2xl">Guinéenne<td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Hobies
+                            </td>
+                            <td class="w-10">
+                                <img src="images/soccer-ball.png" alt="" class="w-10"> Football
+                                <td>
+                                    <img src="images/male-teacher.png" alt="" class="w-10"> Lecture
+                                </td>
+                                <td>
+                                    <img src="images/watching-a-movie.png" alt="" class="w-10"> Cinema
+                                </td>
+                            </td>
+                            
+                        </tr>
+                    </table>
+                    
+                </div>
+            </div>
+        </section>
+        <!-- Section concernant pour parcours academique -->
+        <section class="mt-20 p-10" id="parcour">
+            <h2 class="text-center text-slate-700 font-bold text-3xl">Mon parcours</h2>
+            <div class="fex flex-col sm:flex-row">
+                <div class="w-96 shadow-md rounded-md p-6">
+                    <h2 class="text-center font-bold text-lg text-slate-700">2022-2023</h2>
+                    <p>Baccaloreah unique science experimental</p>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Connaissances -->
+         <section id="connaissances">
+            <h2 class="text-center text-3xl font-bold p-5">Mes Connaissances</h2>
+            <div class="flex flex-row flex-wrap justify-around content-center p-10 gap-2" >
+                <div class="w-96 flex flex-col items-center shadow-md p-5 rounded-xl hover:bg-gray-50 transition-transform duration-300 hover:-rotate-2 hover:scale-105 hover:shadow-2xl">
+                    <h2>Python</h2>
+                    <div class="relative w-32 h-32 bg-slate rounded-full mt-4">
+                        <div class="w-full h-full border-slate-300 border-8 rounded-full">
+                            <div class="absolute w-full border-slate-500 border-8 h-full rounded-full top-0 left-0 border-r-transparent"></div>
+                            <div class="absoulute inset-0 flex flex-col items-center justify-center w-full h-full">
+                                <img src="images/python.png" alt="" class="w-10">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-96 flex flex-col items-center shadow-md p-5 rounded-xl hover:bg-gray-50 transition-transform duration-300 hover:-rotate-2 hover:scale-105 hover:shadow-2xl">
+                    <h2>java</h2>
+                    <div class="relative w-32 h-32 bg-slate rounded-full mt-4">
+                        <div class="w-full h-full border-slate-300 border-8 rounded-full">
+                            <div class="absolute w-full border-slate-500 border-8 h-full rounded-full top-0 left-0 "></div>
+                            <div class="absoulute inset-0 flex flex-col items-center justify-center w-full h-full">
+                                <img src="images/java.png" alt="" class="w-10">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-96 flex flex-col items-center shadow-md p-5 rounded-xl hover:bg-gray-50 transition-transform duration-300 hover:-rotate-2 hover:scale-105 hover:shadow-2xl">
+                    <h2 class="text-center font-bold">Javascript</h2>
+                    <div class="relative w-32 h-32 bg-slate rounded-full mt-4">
+                        <div class="w-full h-full border-slate-300 border-8 rounded-full">
+                            <div class="absolute w-full border-slate-500 border-8 h-full rounded-full top-0 left-0 border-r-transparent border-b-transparent"></div>
+                            <div class="absoulute inset-0 flex flex-col items-center justify-center w-full h-full">
+                                <img src="images/javascrip.png" alt="" class="w-10">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-96 flex flex-col items-center shadow-md p-5 rounded-xl hover:bg-gray-50 transition-transform duration-300 hover:-rotate-2 hover:scale-105 hover:shadow-2xl">
+                    <h2 class="text-center font-bold">PHP</h2>
+                    <div class="relative w-32 h-32 bg-slate rounded-full mt-4">
+                        <div class="w-full h-full border-slate-300 border-8 rounded-full">
+                            <div class="absolute w-full border-slate-500 border-8 h-full rounded-full top-0 left-0 border-r-transparent border-b-transparent"></div>
+                            <div class="absoulute inset-0 flex flex-col items-center justify-center w-full h-full">
+                                <img src="images/php.png" alt="" class="w-10">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-96 flex flex-col items-center shadow-md p-5 rounded-xl hover:bg-gray-50 transition-transform duration-300 hover:-rotate-2 hover:scale-105 hover:shadow-2xl">
+                    <h2 class="text-center font-bold">MySQL | MariaDB</h2>
+                    <div class="relative w-32 h-32 bg-slate rounded-full mt-4">
+                        <div class="w-full h-full border-slate-300 border-8 rounded-full">
+                            <div class="absolute w-full border-slate-500 border-8 h-full rounded-full top-0 left-0 border-r-transparent"></div>
+                            <div class="absoulute inset-0 flex flex-col items-center justify-center w-full h-full">
+                                <img src="images/mysql.png" alt="" class="w-10">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-96 flex flex-col items-center shadow-md p-5 rounded-xl hover:bg-gray-50 transition-transform duration-300 hover:-rotate-2 hover:scale-105 hover:shadow-2xl">
+                    <h2 class="text-center font-bold">WordPress</h2>
+                    <div class="relative w-32 h-32 bg-slate rounded-full mt-4">
+                        <div class="w-full h-full border-slate-300 border-8 rounded-full">
+                            <div class="absolute w-full border-slate-500 border-8 h-full rounded-full top-0 left-0"></div>
+                            <div class="absoulute inset-0 flex flex-col items-center justify-center w-full h-full">
+                                <img src="images/wordpress.png" alt="" class="w-10">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="flex bg-slate-700 p-2 text-white w-48 rounded-2xl text-center justify-center items-center m-auto hover:bg-white hover:text-slate-700 hover:border-2 hover:border-slate-700">voir plus</button>
+         </section>
+         <!-- Partie des Services  -->
+          <section class="flex flex-col items-center bg-gray-100 p-10 mt-5 gap-4" id="services">
+            <h2 class="text-center text-black font-bold text-4xl p-2">Mes Services</h2>
+            <div class="flex flex-row justify-around gap-5 p-4 flex-wrap">
+                <div class="flex flex-col w-96 items-center p-2 text-center  shadow-md rounded-md transition-transform duration-500 hover:shadow-lg hover:scale-105">
+                    <img src="images/developpement.png" alt="" class="w-48 h-40 object-contain">
+                    <h2 class="p-2">Developpement web</h2>
+                    <p class="text-gray-400">Création de sites web sur mesure, optimisés pour une expérience utilisateur fluide et performante."
+                    <br> Avantages : Un design responsive et des fonctionnalités adaptées à vos besoins spécifiques.
+                </p>
+                </div>
+                <div class="flex flex-col w-96 items-center p-2 text-center  shadow-md rounded-md transition-transform duration-500 hover:shadow-lg hover:scale-105">
+                    <img src="images/palette.png" alt="" class="w-48 h-40 object-contain">
+                    <h2 class="p-2">Miltimedia et creation digital</h2>
+                    <p class="text-gray-400">Description : "Conception de contenus visuels captivants, allant de la vidéo à l'illustration."
+                        Avantages : "Renforcez votre image de marque avec des créations uniques et engageantes."</p>
+                </div>
+                <div class="flex flex-col w-96 items-center p-2 text-center  shadow-md rounded-md transition-transform duration-500 hover:shadow-lg hover:scale-105">
+                    <img src="images/marketing.png" alt="" class="w-48 h-40 object-contain">
+                    <h2 class="p-2">Marketing digital</h2>
+                    <p class="text-gray-400">Description : "Stratégies de marketing en ligne pour accroître votre visibilité et attirer votre cible."
+                        Avantages : "Analyse des performances pour optimiser vos campagnes et maximiser votre retour sur investissement."
+                        N'hésite pas à modifier ces phrases selon to</p>
+                </div>
+            </div>
+          </section>
+
+          <!-- Réalisations -->
+
+          <section class="flex flex-col p-10 gap-6" id="realisation">
+            <h1 class="text-2xl font-bold text-center">Projets réalisés</h1>
+            <div class="flex flex-col sm:flex sm:flex-row gap-6 sm:p-10 sm:gap-6 ">
+                <div href="#" class="sm:basis-1/4   bg-center bg-cover bg-no-repeat rounded-lg shadow-2xl transition-transform duration-300 hover:rotate-2 hover:scale-105 hover:shadow-2xl">
+                    <img src="images/first1.png" alt="" class="basis-1/4 h-60 object-cover rounded">
+                    <div class="flex flex-col p-2">
+                        <h1 class="text-2xl font-bold text-center">Creation digital Flyer Ramadan</h1>
+                        <p class="text-gray-400 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, nobis?</p>
+                        
+                    </div>
+
+                    
+                </div> 
+                <div href="#" class="basis-2/4 sm:mt-10   bg-center bg-cover bg-no-repeat rounded-lg shadow-2xl transition-transform duration-300 hover:rotate-2 hover:scale-105 hover:shadow-2xl">
+                    <img src="images/fruits-legurmes.png" alt="" class="h-60  object-contain rounded">
+                    <div class="flex flex-col p-2">
+                        <h1 class="text-2xl font-bold text-center">E-commerce pour vente de fruis et legume</h1>
+                        <p class="text-gray-400 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, nobis?</p>
+                        
+                    </div>
+                    
+                    
+                </div> 
+                <div href="#" class="basis-1/4   bg-center bg-cover bg-no-repeat rounded-lg shadow-2xl transition-transform duration-300 hover:rotate-2 hover:scale-105 hover:shadow-2xl">
+                    <img src="images/Capture d'écran 2024-04-04 233008.png" alt="" class="basis-1/4 h-60 object-cover rounded">
+                    <div class="flex flex-col p-2">
+                        <h1 class="text-2xl font-bold text-center">Boutique E-commerce</h1>
+                        <p class="text-gray-400 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, nobis?</p>
+                        
+                    </div>            
+                </div> 
+            </div>
+            <div class="flex flex-col mt-6 sm:flex md:flex md:flex-row sm:flex-row gap-6 sm:p-10">
+                <div href="#" class="sm:basis-1/4   bg-center bg-cover bg-no-repeat rounded-lg shadow-2xl transition-transform duration-300 hover:-rotate-2 hover:scale-105 hover:shadow-2xl">
+                    <img src="images/ferme.png" alt="" class="basis-1/4 h-60 object-cover rounded">
+                    <div class="flex flex-col p-2">
+                        <h1 class="text-2xl font-bold text-center">Site de commerce electronique</h1>
+                        <p class="text-gray-400 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, nobis?</p>
+                        
+                    </div>
+
+                    
+                </div> 
+                <div href="#" class="basis-1/4   bg-center bg-cover bg-no-repeat rounded-lg shadow-2xl transition-transform duration-300 hover:-rotate-2 hover:scale-105 hover:shadow-2xl">
+                    <img src="images/excurtion.png" alt="" class="basis-1/4 h-60  object-cover rounded">
+                    <div class="flex flex-col p-2">
+                        <h1 class="text-2xl font-bold text-center">Titre du projet</h1>
+                        <p class="text-gray-400 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, nobis?</p>
+                        
+                    </div>
+                    
+                    
+                </div> 
+                <div href="#" class="sm:basis-1/4   bg-center bg-cover bg-no-repeat rounded-lg shadow-2xl transition-transform duration-300 hover:-rotate-2 hover:scale-105 hover:shadow-2xl">
+                    <img src="images/vibe.png" alt="" class="basis-1/4 h-60  object-contain rounded">
+                    <div class="flex flex-col p-2">
+                        <h1 class="text-2xl font-bold text-center">Titre du projet</h1>
+                        <p class="text-gray-400 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, nobis?</p>
+                        
+                    </div>
+                    
+                    
+                </div> 
+                <div href="#" class="sm:basis-1/4   bg-center bg-cover bg-no-repeat rounded-lg shadow-2xl transition-transform duration-300 hover:-rotate-2 hover:scale-105 hover:shadow-2xl">
+                    <img src="images/Afrilib1.png" alt="" class="basis-1/4 h-60  object-cover rounded">
+                    <div class="flex flex-col p-2">
+                        <h1 class="text-2xl font-bold text-center">Titre du projet</h1>
+                        <p class="text-gray-400 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, nobis?</p>
+                        
+                    </div>
+                    
+                    
+                </div> 
+            </div>
+          </section>
+          <!-- Contact -->
+        <section class="flex flex-col bg-gray-100 p-10 flex-wrap" id="contact">
+            <h2 class="text-3xl font-bold text-center">Me contacter</h2>
+            <div class="flex flex-col sm:flex-row gap-2 items-center justify-center p-5">
+                <div class="flex flex-col ">
+                    <div class="flex gap-1 items-center shadow p-2 rounded w-full">
+                        <img src="images/telephone.png" alt="" class="w-12">
+                        <p>00221 77 487 40 73</p> 
+                    </div>
+                    <div class="flex gap-1 items-center shadow p-2 rounded">
+                        <img src="images/localisation.png" alt="" class="w-12">
+                        <p>Guédiawaye,Dakar,Sénégal</p>
+                    </div>
+                    <div class="flex gap-1 items-center shadow p-2 rounded">
+                        <img src="images/mail.png" alt="" class="w-12">
+                        <p>barryAlhassane476@gmail.com</p>
+                    </div>
+                </div>
+                <form action="" class="flex w-full flex-col shadow p-5 sm:basis-2/4 mt-5">
+                    <label for="">nom<span class="text-red-600 ">*</span></label>
+                    <input type="text" name="" id="" required class="p-1">
+                    <label for="">Email<span class="text-red-600">*</span></label>
+                    <input type="email" name="" id="" required class="p-1">
+                    <label for="">Objet</label>
+                    <input type="text" name="" id="" class="p-1">
+                    <textarea name="" id="" placeholder="Votre message" class="h-40 mt-5"></textarea>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Partie du footer -->
+     <footer class="p-5 bg-slate-600">
+        <div class="flex flex-col md:flex-row p-3 justify-around items-center flex-wrap content-center">
+            <div class="flex flex-row gap-4">
+                <a href="#" class="w-14"><img src="images/facebook.png" alt="" class="w-14 object-contain"></a>
+                <a href="#" class="w-14"><img src="images/instagramme.png" alt="" class="w-12 object-contain"></a>
+                <a href="#" class="w-14"><img src="images/linkedin.png" alt="" class="w-14 object-contain"></a>
+                <a href="#" class="w-14"><img src="images/x.png" alt="" class="w-14 object-contain"></a>
+            </div>
+            <div class="flex flex-col ">
+                <h2 class="text-2xl font-bold text-center text-white">newsletter</h2>
+                <p class="text-gray-400 text-center">Abonnée-vous a la newsletter pour recevoir toutes les informations</p>
+                <div class="flex flex-row gap-2  p-2 ">
+                    <input type="email" name="" id="" placeholder="Entrer votre adresse mail" class="p-2 border-slate-700 border-2 ">
+                    <button class="bg-slate-700 w-28 p-2 text-white rounded ">S'abonnée</button>
+                </div>
+            </div>
+        </div>
+        <div class="border-t-2 border-slate-300  flex flex-col content-center items-center">
+            <p class="text-center text-gray-400 p-2">&copy;2025 propusé par barry tech solutions | tous drois reserver</p>
+        </div>
+     </footer>
+     <script src="src/script.js"></script>
+</body>
+</html>
