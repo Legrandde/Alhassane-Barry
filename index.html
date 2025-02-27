@@ -12,7 +12,7 @@
     <!-- La partie du header -->
     
     </div>
-    <header class="relative w-full flex flex-row content-center items-center shadow-md sm:justify-between p-5">
+    <header class="relative w-full flex flex-row content-center items-center shadow-md justify-between sm:justify-between p-5">
         <div class="text-lg text-slate-700 font-bold cursor-pointer">Barry</div>
         <nav class="md:flex md:flex-row sm:justify-between">
             <ul class="absolute sm:shadow-md rounded-lg sm:relative bg-slate-100 w-full ease-in-out sm:top-0 flex sm:right-0 flex-col items-center sm:bg-transparent left-0  p-4  top-20 sm:flex sm:flex-row gap-10 left duration-300" id="nav">
@@ -27,7 +27,6 @@
         </nav>
         <div class="flex sm:hidden flex-row items-center p-2">
             <img src="images/menu.png" alt="" class="w-10 cursor-pointer" id="btn-open">
-
             <span>Menu</span>
         </div>
     </header>
@@ -67,31 +66,31 @@
                     <table class="mt-8">
                         <tr>
                             <td>Nom</td>
-                            <td class="font-bold text-slate-700 text-2xl">Barry</td>
+                            <td class="font-bold text-slate-700 sm:text-2xl">Barry</td>
                         </tr>
                         <tr>
                             <td>Prenom</td>
-                            <td class="font-bold text-slate-700 text-2xl">Alhassane</td>
+                            <td class="font-bold text-slate-700 sm:text-2xl">Alhassane</td>
                         </tr>
                         <tr>
                             <td>Date de naissance</td>
-                            <td class="font-bold text-slate-700 text-2xl">12/04/2004</td>
+                            <td class="font-bold text-slate-700 sm:text-2xl">12/04/2004</td>
                         </tr>
                         <tr>
                             <td>adresse</td>
-                            <td class="font-bold text-slate-700 text-2xl">Guédiawaye,Dakar,Sénégale</td>
+                            <td class="font-bold text-slate-700 sm:text-2xl">Guédiawaye,Dakar,Sénégale</td>
                         </tr>
                         <tr>
                             <td>
                                 adresse mail
                             </td>
-                            <td class="font-bold text-slate-700 text-2xl">
+                            <td class="font-bold text-slate-700 sm:text-2xl">
                                 barryAlhassane476@gmail.com
                             </td>
                         </tr>
                         <tr>
                             <td>Nationnalité</td>
-                            <td class="font-bold text-slate-700 text-2xl">Guinéenne<td>
+                            <td class="font-bold text-slate-700 sm:text-2xl">Guinéenne<td>
                         </tr>
                         
                     </table>
@@ -295,7 +294,7 @@
             </div>
           </section>
           <!-- Contact -->
-        <section class="flex flex-col bg-gray-100 p-10 flex-wrap" id="contact">
+        <section class="flex w-full flex-col bg-gray-100 p-10 flex-wrap" id="contact">
             <h2 class="text-3xl font-bold text-center">Me contacter</h2>
             <div class="flex flex-col sm:flex-row gap-2 items-center justify-center p-5">
                 <div class="flex flex-col ">
@@ -312,8 +311,8 @@
                         <p>barryAlhassane476@gmail.com</p>
                     </div>
                 </div>
-                <form action="" class="flex w-full flex-col shadow p-5 sm:basis-2/4 mt-5">
-                    <label for="">nom<span class="text-red-600 ">*</span></label>
+                <form action="" class="flex w-full flex-col p-6 shadow sm:p-5 md:basis-2/4 mt-5">
+                    <label for="">nom<span class="text-red-600 w-full">*</span></label>
                     <input type="text" name="" id="" required class="p-1">
                     <label for="">Email<span class="text-red-600">*</span></label>
                     <input type="email" name="" id="" required class="p-1">
@@ -336,7 +335,7 @@
                 <a href="https://www.linkedin.com/in/alhassane-barry-71116728b/" class="w-14"><img src="images/linkedin.png" alt="" class="w-10 object-contain"></a>
                 <a href="https://github.com/Legrandde" class="w-14"><img src="images/github.png" alt="" class="w-10 object-contain"></a>
             </div>
-            <ul class="  bg-slate-100  ease-in-out flex flex-col items-center sm:bg-transparent   p-4  sm:flex sm:flex-col gap-10  duration-300" >
+            <ul class="   ease-in-out flex flex-row items-center sm:bg-transparent   p-2  sm:flex sm:flex-col gap-2  duration-300" >
                 <li class="hover:bg-slate-100 hover:border-b-slate-700 hover:border-b-2 ease-in-out duration-700"><a href="#">Accueill</a></li>
                 <li class="hover:bg-slate-100  hover:border-b-slate-700 hover:border-b-2 ease-in-out duration-700"><a href="#apropos">Apropos</a></li>
                 <!-- <li class="hover:bg-slate-100 p-4 hover:border-b-slate-700 hover:border-b-2 ease-in-out duration-700"><a href="#parcour">Parcours</a></li> -->

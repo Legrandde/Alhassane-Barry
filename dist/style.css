@@ -780,6 +780,10 @@ video {
   justify-content: center;
 }
 
+.justify-between {
+  justify-content: space-between;
+}
+
 .justify-around {
   justify-content: space-around;
 }
@@ -1389,6 +1393,15 @@ video {
     padding: 5rem;
   }
 
+  .sm\:p-5 {
+    padding: 1.25rem;
+  }
+
+  .sm\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
   .sm\:shadow-md {
     --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
     --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
@@ -1419,6 +1432,10 @@ video {
 
   .md\:flex {
     display: flex;
+  }
+
+  .md\:basis-2\/4 {
+    flex-basis: 50%;
   }
 
   .md\:flex-row {
