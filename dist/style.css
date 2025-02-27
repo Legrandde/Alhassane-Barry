@@ -802,6 +802,10 @@ video {
   align-self: flex-end;
 }
 
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+
 .rounded {
   border-radius: 0.25rem;
 }
